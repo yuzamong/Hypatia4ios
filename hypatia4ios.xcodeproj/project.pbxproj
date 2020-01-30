@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D47F69D023E28C990033F359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47F69CB23E28C990033F359 /* Assets.xcassets */; };
+		D47F69D123E28C990033F359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47F69CC23E28C990033F359 /* LaunchScreen.storyboard */; };
+		D47F69D823E28CA10033F359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F69D423E28CA10033F359 /* ViewController.swift */; };
+		D47F69D923E28CA10033F359 /* hypatia4ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D47F69D523E28CA10033F359 /* hypatia4ios.xcdatamodeld */; };
+		D47F69DA23E28CA10033F359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F69D723E28CA10033F359 /* AppDelegate.swift */; };
+		D47F69DF23E28E190033F359 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47F69DE23E28E190033F359 /* Colors.xcassets */; };
+		D47F69E223E2A3D50033F359 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F69E123E2A3D50033F359 /* Colors.swift */; };
+		D4EE510A23E171E500E9DC36 /* hypatia4iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE510923E171E500E9DC36 /* hypatia4iosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4EE510623E171E500E9DC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4EE50E423E171E400E9DC36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4EE50EB23E171E400E9DC36;
+			remoteInfo = hypatia4ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D47F69CB23E28C990033F359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D47F69CD23E28C990033F359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D47F69D423E28CA10033F359 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D47F69D623E28CA10033F359 /* hypatia4ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hypatia4ios.xcdatamodel; sourceTree = "<group>"; };
+		D47F69D723E28CA10033F359 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D47F69DC23E28CA60033F359 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47F69DE23E28E190033F359 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D47F69E123E2A3D50033F359 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D4EE50EC23E171E400E9DC36 /* hypatia4ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hypatia4ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EE510523E171E500E9DC36 /* hypatia4iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hypatia4iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EE510923E171E500E9DC36 /* hypatia4iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypatia4iosTests.swift; sourceTree = "<group>"; };
+		D4EE510B23E171E500E9DC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4EE50E923E171E400E9DC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EE510223E171E500E9DC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D47F69CA23E28C990033F359 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D47F69CB23E28C990033F359 /* Assets.xcassets */,
+				D47F69CC23E28C990033F359 /* LaunchScreen.storyboard */,
+				D47F69DE23E28E190033F359 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D47F69D323E28CA10033F359 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D47F69E023E2A3AA0033F359 /* Shared */,
+				D47F69D423E28CA10033F359 /* ViewController.swift */,
+				D47F69D523E28CA10033F359 /* hypatia4ios.xcdatamodeld */,
+				D47F69D723E28CA10033F359 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D47F69DB23E28CA60033F359 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D47F69DC23E28CA60033F359 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D47F69E023E2A3AA0033F359 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D47F69E123E2A3D50033F359 /* Colors.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D4EE50E323E171E400E9DC36 = {
+			isa = PBXGroup;
+			children = (
+				D4EE50EE23E171E400E9DC36 /* hypatia4ios */,
+				D4EE510823E171E500E9DC36 /* hypatia4iosTests */,
+				D4EE50ED23E171E400E9DC36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4EE50ED23E171E400E9DC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE50EC23E171E400E9DC36 /* hypatia4ios.app */,
+				D4EE510523E171E500E9DC36 /* hypatia4iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4EE50EE23E171E400E9DC36 /* hypatia4ios */ = {
+			isa = PBXGroup;
+			children = (
+				D47F69DB23E28CA60033F359 /* Support */,
+				D47F69D323E28CA10033F359 /* Sources */,
+				D47F69CA23E28C990033F359 /* Resources */,
+			);
+			path = hypatia4ios;
+			sourceTree = "<group>";
+		};
+		D4EE510823E171E500E9DC36 /* hypatia4iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE510923E171E500E9DC36 /* hypatia4iosTests.swift */,
+				D4EE510B23E171E500E9DC36 /* Info.plist */,
+			);
+			path = hypatia4iosTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4EE50EB23E171E400E9DC36 /* hypatia4ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EE510E23E171E500E9DC36 /* Build configuration list for PBXNativeTarget "hypatia4ios" */;
+			buildPhases = (
+				D4EE50E823E171E400E9DC36 /* Sources */,
+				D4EE50E923E171E400E9DC36 /* Frameworks */,
+				D4EE50EA23E171E400E9DC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hypatia4ios;
+			productName = hypatia4ios;
+			productReference = D4EE50EC23E171E400E9DC36 /* hypatia4ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4EE510423E171E500E9DC36 /* hypatia4iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EE511123E171E500E9DC36 /* Build configuration list for PBXNativeTarget "hypatia4iosTests" */;
+			buildPhases = (
+				D4EE510123E171E500E9DC36 /* Sources */,
+				D4EE510223E171E500E9DC36 /* Frameworks */,
+				D4EE510323E171E500E9DC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4EE510723E171E500E9DC36 /* PBXTargetDependency */,
+			);
+			name = hypatia4iosTests;
+			productName = hypatia4iosTests;
+			productReference = D4EE510523E171E500E9DC36 /* hypatia4iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4EE50E423E171E400E9DC36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = yuzamong;
+				TargetAttributes = {
+					D4EE50EB23E171E400E9DC36 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D4EE510423E171E500E9DC36 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D4EE50EB23E171E400E9DC36;
+					};
+				};
+			};
+			buildConfigurationList = D4EE50E723E171E400E9DC36 /* Build configuration list for PBXProject "hypatia4ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4EE50E323E171E400E9DC36;
+			productRefGroup = D4EE50ED23E171E400E9DC36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4EE50EB23E171E400E9DC36 /* hypatia4ios */,
+				D4EE510423E171E500E9DC36 /* hypatia4iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4EE50EA23E171E400E9DC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47F69DF23E28E190033F359 /* Colors.xcassets in Resources */,
+				D47F69D023E28C990033F359 /* Assets.xcassets in Resources */,
+				D47F69D123E28C990033F359 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EE510323E171E500E9DC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4EE50E823E171E400E9DC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47F69DA23E28CA10033F359 /* AppDelegate.swift in Sources */,
+				D47F69E223E2A3D50033F359 /* Colors.swift in Sources */,
+				D47F69D823E28CA10033F359 /* ViewController.swift in Sources */,
+				D47F69D923E28CA10033F359 /* hypatia4ios.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EE510123E171E500E9DC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EE510A23E171E500E9DC36 /* hypatia4iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4EE510723E171E500E9DC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4EE50EB23E171E400E9DC36 /* hypatia4ios */;
+			targetProxy = D4EE510623E171E500E9DC36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D47F69CC23E28C990033F359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D47F69CD23E28C990033F359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4EE510C23E171E500E9DC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4EE510D23E171E500E9DC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EE510F23E171E500E9DC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W72J68SBMY;
+				INFOPLIST_FILE = "$(SRCROOT)/hypatia4ios/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzamong.hypatia4ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4EE511023E171E500E9DC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W72J68SBMY;
+				INFOPLIST_FILE = "$(SRCROOT)/hypatia4ios/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzamong.hypatia4ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D4EE511223E171E500E9DC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W72J68SBMY;
+				INFOPLIST_FILE = hypatia4iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzamong.hypatia4iosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypatia4ios.app/hypatia4ios";
+			};
+			name = Debug;
+		};
+		D4EE511323E171E500E9DC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W72J68SBMY;
+				INFOPLIST_FILE = hypatia4iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzamong.hypatia4iosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypatia4ios.app/hypatia4ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4EE50E723E171E400E9DC36 /* Build configuration list for PBXProject "hypatia4ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EE510C23E171E500E9DC36 /* Debug */,
+				D4EE510D23E171E500E9DC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EE510E23E171E500E9DC36 /* Build configuration list for PBXNativeTarget "hypatia4ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EE510F23E171E500E9DC36 /* Debug */,
+				D4EE511023E171E500E9DC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EE511123E171E500E9DC36 /* Build configuration list for PBXNativeTarget "hypatia4iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EE511223E171E500E9DC36 /* Debug */,
+				D4EE511323E171E500E9DC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D47F69D523E28CA10033F359 /* hypatia4ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D47F69D623E28CA10033F359 /* hypatia4ios.xcdatamodel */,
+			);
+			currentVersion = D47F69D623E28CA10033F359 /* hypatia4ios.xcdatamodel */;
+			path = hypatia4ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4EE50E423E171E400E9DC36 /* Project object */;
+}
