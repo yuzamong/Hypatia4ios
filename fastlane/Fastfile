@@ -27,14 +27,15 @@ platform :ios do
 
   lane :tests do
     run_tests(
-        devices: ["iPhone Xs"],
+        devices: ["iPhone 11"],
         skip_detect_devices: false,
         scheme: "hypatia4ios")
   end
 
 
   lane :build do
-    gym
+    sync_code_signing(type: "appstore")
+    gym(scheme: "hypatia4ios")
   end
 
 end
